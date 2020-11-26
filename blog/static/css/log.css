@@ -1,11 +1,11 @@
-.back{background:#181015 url("images/back.jpg") no-repeat; background-size: cover;}
-.login{background:#181015 url("images/log_in.jpg") no-repeat; background-size: cover;}
-.register{background:#181015 url("images/regis.jpg") no-repeat; background-size: cover;}
-.forget{background:#181015 url("images/for_get.jpg") no-repeat; background-size: cover;}
-.bg{padding-top:100px;background:#181015 url("images/background.jpg") no-repeat; background-size: cover;}
-.reset{background:#181015 url("images/reset.jpg") no-repeat; background-size: cover;}
-.comment{background:#181015 url("images/comm.png") no-repeat; background-size: cover;}
-.contact{background:#181015 url("images/contact.png") no-repeat; background-size: cover;}
+.back{background:#181015 url("../images/back.jpg") no-repeat; background-size: cover;}
+.login{background:#181015 url("../images/log_in.jpg") no-repeat; background-size: cover;}
+.register{background:#181015 url("../images/regis.jpg") no-repeat; background-size: cover;}
+.forget{background:#181015 url("../images/for_get.jpg") no-repeat; background-size: cover;}
+.bg{padding-top:100px;background:#181015 url("../images/background.jpg") no-repeat; background-size: cover;}
+.reset{background:#181015 url("../images/reset.jpg") no-repeat; background-size: cover;}
+.comment{background:#181015 url("../images/comm.png") no-repeat; background-size: cover;}
+.contact{background:#181015 url("../images/contact.png") no-repeat; background-size: cover;}
 
 
 

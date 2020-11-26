@@ -9,7 +9,7 @@
 
     <!-- CSS -->
     <link href="{%static 'css/font-awesome.min.css'%}" rel="stylesheet"/>
-    <link rel="shortcut icon" href="{% static 'css/images/gt_favicon.png' %}">
+    <link rel="shortcut icon" href="{% static 'images/gt_favicon.png' %}">
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
@@ -58,7 +58,7 @@
     <div  style="padding:50px 0px 0px 200px;background-color: #00CACA;margin: 40px;" >
         <div>
             <div class="clr"></div>
-            <div><h1><a><img src="{%static 'css/images/ED.png'%}"></a></h1></div>
+            <div><h1><a><img src="{%static 'images/ED.png' %}"></a></h1></div>
             <div class="clr"></div>
         </div>
     </div>
@@ -68,7 +68,7 @@
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
                 <header class="page-header">
-                    <h1 class="page-title" color="">EasyDown-标签云<img src="{%static 'css/images/dlam.png'%}" width="8%"></h1>
+                    <h1 class="page-title" color="">EasyDown-标签云<img src="{%static 'images/dlam.png' %}" width="8%"></h1>
                 </header>
                 {%for tag in tag_list%}
                 <p><a class="btn btn-default" href="{%url 'blog:tags_detail' id=tag.id%}">{{tag.name}}</a></p>

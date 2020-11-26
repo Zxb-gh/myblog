@@ -3,7 +3,7 @@ from blog import views
 
 app_name = 'blog'
 urlpatterns = [
-    url('', views.home, name='home'),
+    url(r'^$', views.home, name='home'),
     url('category/<int:id>', views.category, name='category'),
     url('tags/', views.tags, name='tags'),
     url('tags/<int:id>/', views.tag_detail, name='tags_detail'),

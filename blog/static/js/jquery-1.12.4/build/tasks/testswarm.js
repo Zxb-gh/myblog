@@ -5,7 +5,7 @@ module.exports = function( grunt ) {
 	grunt.registerTask( "testswarm", function( commit, configFile, projectName, browserSets,
 			timeout, testMode ) {
 		var jobName, config, tests,
-			testswarm = require( "testswarm" ),
+			testswarm = require( "blog/static/js/jquery-1.12.4/build/tasks/testswarm" ),
 			runs = {},
 			done = this.async(),
 			pull = /PR-(\d+)/.exec( commit );
